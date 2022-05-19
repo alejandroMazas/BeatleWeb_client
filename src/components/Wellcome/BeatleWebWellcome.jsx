@@ -15,16 +15,6 @@ const BeatleWebWellcome = () => {
                         {t('BeatleWebWellcome.beatleWeb')}
                     </p>
 
-                    {/* <p>
-                    Aquí pretendo reflejar todos mis trabajos y los de otros artistas no profesionales,
-                    que sean dignos de mención y que tengan algo que ver con este tema "THE BEATLES".
-                    También para todos los fans en general y demás visitantes, mi deseo de que Beatle Web sea de vuestro agrado,
-                    por eso... En Beatle Web no hay música ni fotos ni videos de THE BEATLES,
-                    para eso tienes otras páginas en la Web que seguro ya conoces.
-                    Aquí lo que encontraras son diversos trabajos realizados por mi y por otros artistas,
-                    relacionados con THE BEATLES, y como regalo, LA HISTORIA DE THE BEATLES EN COMICS.
-                </p> */}
-
                 </article>
             </section>
 
