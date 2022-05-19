@@ -7,19 +7,18 @@ const HomePage = () => {
 
     return (
         <>
-            <div className='background'>
-                <div style={{ width: '100%', height: '100%', position: 'absolute' }}>
-                    <ReactPlayer
-                        url={'../../../BeatleWeb.mp4'}
+            <div className='background'></div>
+                {/* <div style={{ width: '100%', height: '100%', position: 'absolute' }}> */}
+                {/* <ReactPlayer
+                        url={''}
                         width='100%'
                         height='100%'
                         controls
                         playing
-                    ></ReactPlayer>
+                    ></ReactPlayer> */}
 
-                    <BeatleWebWellcome />
-                </div>
-            </div>
+                <BeatleWebWellcome />
+                {/* </div> */}
         </>
     )
 }
