@@ -1,0 +1,126 @@
+.coverImg {
+    width: 100%;
+}
+
+.chapterCard {
+    margin-bottom: 80px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.accordionBody {
+    background-color: rgb(7, 6, 6);
+    color: white;
+}
+
+.bn632-hover {
+    width: 180px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 8px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+    outline: none;
+}
+
+.bn632-hover.bn26 {
+    background-image: linear-gradient(to right,
+            #38aadc,
+            #4481eb,
+            #46e4ef,
+            #289cf5);
+}
+
+
+.bn631-hover {
+    width: 180px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn631-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn631-hover:focus {
+    outline: none;
+}
+
+.bn631-hover.bn26 {
+    background-image: linear-gradient(to right,
+            #e12557,
+            #eb5744,
+            #fe7d04,
+            #ed3f82);
+}
+
+
+
+
+.bn629-hover {
+    width: 180px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 8px;
+    height: 40px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn629-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.bn629-hover:focus {
+    outline: none;
+}
+
+.bn629-hover.bn26 {
+    background-image: linear-gradient(to right,
+            #ffc800,
+            #ffd000,
+            #fef604,
+            #ff7b00);
+}

@@ -1,0 +1,7 @@
+.background {
+    background-image: url('../../../public/Imagenes/protada5bn.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}

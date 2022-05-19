@@ -1,0 +1,14 @@
+.backgroundLogin {
+    width: 100%;
+    background-image: url('../../../public/Imagenes/collage1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px;
+}
+
+.formBackground {
+    width: 50%;
+    background-color: rgb(255, 255, 255, 0.75);
+    padding: 25px;
+    border-radius: 10px;
+}

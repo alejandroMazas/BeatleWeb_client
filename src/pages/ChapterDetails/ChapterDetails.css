@@ -1,0 +1,34 @@
+.chapterDetailsBackground {
+    padding: 30px;
+    background-color: rgb(127, 217, 214);
+}
+
+.flipbook {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+}
+
+.views {
+    margin: 20px;
+}
+
+.comment {
+    margin-top: 20px;
+    width: 350px;
+}
+
+.commentBox {
+    padding-top: 30px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+
+.commentText {
+    color: white;
+}
+
+.modalBackground {
+    background-color: rgb(70, 243, 145);
+}

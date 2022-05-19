@@ -1,0 +1,38 @@
+.section1 {
+    padding: 215px;
+    text-align: center;
+    background-color: rgb(37, 221, 187);
+}
+
+.bienvenida {
+    font-size: 70px;
+    margin-bottom: 30px;
+    font-family: 'Permanent Marker';
+}
+
+.beatleWeb {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.section2 {
+    padding: 100px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerWellcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.features {
+    width: 250px;
+}

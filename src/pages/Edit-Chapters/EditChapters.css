@@ -1,0 +1,14 @@
+.backgroundEdit {
+    width: 100%;
+    background-image: url('../../../public/Imagenes/collage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+}
+
+.formBackground {
+    width: 50%;
+    background-color: rgb(255, 255, 255, 0.75);
+    padding: 25px;
+    border-radius: 10px;
+}

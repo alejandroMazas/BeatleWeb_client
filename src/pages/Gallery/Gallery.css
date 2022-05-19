@@ -1,0 +1,7 @@
+.background2 {
+    background-image: url('../../../public/Imagenes/cuadro.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}

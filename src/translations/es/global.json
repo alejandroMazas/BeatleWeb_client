@@ -1,0 +1,41 @@
+{
+    "header": {
+        "hello-World": "Hola Mundo"
+    },
+    "Navigation": {
+        "chapters": "Capítulos",
+        "signup": "Registro",
+        "login": "Iniciar sesión",
+        "logout": "Cerrar sesión",
+        "gallery": "Galeria"
+    },
+    "ChapterList": {
+        "chapters": "Capítulos"
+    },
+    "ChapterCard": {
+        "synopsys": "Sinopsis",
+        "goToChapter": "Ir al capítulo"
+    },
+    "Login": {
+        "login": "Iniciar sesión"
+    },
+    "LoginForm": {
+        "email": "Dirección de e-mail",
+        "emailPlace": "Introduce tu dirección de e-mail",
+        "password": "Contraseña",
+        "passwordPlace": "Introduce tu contraseña",
+        "button": "Iniciar sesión"
+    },
+    "Signup": {
+        "signup": "Registro"
+    },
+    "SignupForm": {
+        "username": "Nombre de usuario",
+        "usernamePlace": "Introduce un nombre de usuario",
+        "email": "Dirección de e-mail",
+        "emailPlace": "Introduce tu dirección de e-mail",
+        "password": "Contraseña",
+        "passwordPlace": "Introduce tu contraseña",
+        "button": "Registrarse"
+    }
+}
