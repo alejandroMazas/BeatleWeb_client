@@ -1,0 +1,75 @@
+.galleryBackground1 {
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(250, 51, 51);
+}
+
+.galleryBackground2 {
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(12, 71, 30);
+}
+
+.galleryBackground3 {
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(38, 106, 206);
+}
+
+.galleryHeading {
+    font-size: 70px;
+    font-family: 'Permanent Marker';
+}
+
+.galleryHeader {
+    padding: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.gallerySections {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Permanent Marker';
+}
+
+.cuadro {
+    width: 100%;
+    border: 7px solid black;
+}
+
+.oleo1 {
+    width: 80%;
+    margin-bottom: 30px;
+    border: 7px solid black;
+}
+
+.oleo2 {
+    width: 80%;
+    border: 7px solid black;
+}
+
+.revolver {
+    width: 90%;
+    border: 7px solid black;
+}
+
+.dibujo1 {
+    width: 84%;
+    margin-bottom: 20px;
+    border: 7px solid black;
+}
+
+.dibujo2 {
+    width: 84%;
+    margin-bottom: 30px;
+    border: 7px solid black;
+}
+
+.cyber {
+    width: 100%;
+    margin-bottom: 50px;
+}

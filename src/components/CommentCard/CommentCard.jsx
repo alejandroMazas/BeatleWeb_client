@@ -11,16 +11,13 @@ const CommentCard = ({ comment, deleteComment }) => {
     return (
         <>
             <Card className='comment'>
-                <Card.Header className='commentBackground'>{comment?.author?.username}</Card.Header>
+                <Card.Header>{comment?.author?.username}</Card.Header>
                 <Card.Body>
                     <blockquote className="blockquote mb-0">
                         <p>
                             {' '}
                             {comment.comment}{' '}
                         </p>
-                        {/* <footer className="blockquote-footer">
-                            <cite title="Source Title">{comment.timestamps}</cite>
-                        </footer> */}
                     </blockquote>
                 </Card.Body>
                 {

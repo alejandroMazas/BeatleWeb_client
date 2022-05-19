@@ -8,3 +8,8 @@
 a:hover {
     color: #ffa500;
 }
+
+.languageChange {
+    background-color: rgb(65, 65, 62);
+    color: white;
+}

@@ -44,8 +44,8 @@ const Navigation = () => {
                                 </>
 
                         }
-                        <button onClick={() => i18n.changeLanguage('es')}>ES</button>
-                        <button onClick={() => i18n.changeLanguage('en')}> EN</button>
+                        <button className='languageChange' onClick={() => i18n.changeLanguage('es')}>ES</button>
+                        <button className='languageChange' onClick={() => i18n.changeLanguage('en')}> EN</button>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

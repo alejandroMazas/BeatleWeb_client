@@ -11,8 +11,8 @@ const BeatleWebWellcome = () => {
                     <p className="beatleWeb">
                         Beatle Web esta dedicada a todo fan de THE BEATLES que tenga como hobby el dibujo
                         ,la pintura, la escultura o cualquier otra modalidad de arte.
-                        En esta página encontraras mis trabajos relacionados con THE BEATLES y LA HISTORIA DE THE BEATLES EN COMICS
-                        un comic dividido en 8 capñitulos realizados por mí en el que represento la historia del grupo desde sus inicios.
+                        En esta página encontraras mis trabajos relacionados con THE BEATLES y <strong>LA HISTORIA DE THE BEATLES EN COMICS </strong>
+                        un comic dividido en 8 capítulos realizados por mí en el que represento la historia del grupo desde sus inicios.
                     </p>
 
                     {/* <p>
@@ -26,24 +26,21 @@ const BeatleWebWellcome = () => {
                 </p> */}
 
                 </article>
-                <div class="buttons">
-                    <a>Ir al comic</a>
-                </div>
             </section>
 
             <section className="section2">
                 <div class="containerWellcome">
                     <div class="features">
                         <h3>¿Por qué BeatleWeb?</h3>
-                        <p>Create an org, add your team. and start colaborating. Nothing to configure, set up, or manage. </p>
+                        <p>Porque soy un apasionado de THE BEATLES y en esta web pretendo reflejar todos mis trabajos y os deseo que los disfruteis tanto como yo he disfrutado al realizarlos. </p>
                     </div>
                     <div class="features">
-                        <h3>Team management</h3>
-                        <p>Control who has acces to what modules within your team namespace using straightforward team management compatibilities.</p>
+                        <h3>¿Que saco yo de todo esto?</h3>
+                        <p>En realidad no saco nada, solo la satisfacción de hacer algo que me apasiona y el gusto de poder compartirlo con los fans de THE BEATLES como yo.</p>
                     </div>
                     <div class="features">
-                        <h3>Familiar features</h3>
-                        <p>npm Orgs has 100% parity with all the public npm registry features your developers already use.</p>
+                        <h3>¿Cuanto tiempo te ha llevado?</h3>
+                        <p>Este cómic llevo desarrollandolo durante años y actualmente sigo trabajando en él y en otros proyectos relacionados con THE BEATLES.</p>
                     </div>
                 </div>
             </section>
