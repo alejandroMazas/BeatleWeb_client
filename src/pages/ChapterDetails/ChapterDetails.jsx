@@ -115,9 +115,10 @@ const ChapterDetails = () => {
 
             </div>
 
+            <div className='line'></div>
             <Container>
                 <div className='commentBox' >
-                    <h2>Comentarios</h2>
+                    <h2 className='comments'>Comentarios</h2>
 
                     {
                         isLoggedIn &&

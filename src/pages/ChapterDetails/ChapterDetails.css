@@ -10,7 +10,7 @@
 }
 
 .views {
-    margin: 20px;
+    margin-top: 20px;
     font-family: 'Permanent Marker';
 }
 
@@ -32,4 +32,16 @@
 
 .modalBackground {
     background-color: rgb(70, 243, 145);
+}
+
+.comments {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Permanent Marker';
+
+}
+
+.line {
+    background-color: black;
+    padding: 5px;
 }

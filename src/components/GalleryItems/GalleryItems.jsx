@@ -1,20 +1,25 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap'
 import './GalleryItems.css'
+import { useTranslation } from 'react-i18next'
+
 
 const GalleryItems = () => {
+
+    const [t, i18n] = useTranslation('global')
+
     return (
         <>
 
             <div className="galleryHeader">
-                <h2 className="galleryHeading">Galería</h2>
+                <h2 className="galleryHeading">{t('galleryItems.gallery')}</h2>
             </div>
 
             <div className="galleryBackground1">
                 <Container>
                     <Row>
                         <Col>
-                            <h3 className="gallerySections">Dibujo</h3>
+                            <h3 className="gallerySections">{t('galleryItems.draws')}</h3>
 
                             <Row>
                                 <Col md={{ span: 7 }}>
@@ -42,7 +47,7 @@ const GalleryItems = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <h3 className="gallerySections">Pintura</h3>
+                            <h3 className="gallerySections">{t('galleryItems.paint')}</h3>
 
                             <Row>
                                 <Col md={{ span: 6 }}>
@@ -69,7 +74,7 @@ const GalleryItems = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <h3 className="gallerySections">Cyber arte</h3>
+                            <h3 className="gallerySections">{t('galleryItems.cyber art')}</h3>
 
                             <Row>
 

@@ -37,5 +37,21 @@
         "password": "Contraseña",
         "passwordPlace": "Introduce tu contraseña",
         "button": "Registrarse"
+    },
+    "galleryItems": {
+        "gallery": "Galeria",
+        "draws": "Dibujo",
+        "paint": "Pintura",
+        "cyber art": "Cyber arte"
+    },
+    "BeatleWebWellcome": {
+        "wellcome": "Bienvenido a BeatleWeb",
+        "beatleWeb": "Beatle Web esta dedicada a todo fan de THE BEATLES que tenga como hobby el dibujo,la pintura, la escultura o cualquier otra modalidad de arte. En esta página encontraras mis trabajos relacionados con THE BEATLES y LA HISTORIA DE THE BEATLES EN COMICS, un comic dividido en 8 capítulos realizados por mí en el que represento la historia del grupo desde sus inicios.",
+        "whyBeatleweb": "¿Por qué BeatleWeb?",
+        "why": "Porque soy un apasionado de THE BEATLES y en esta web pretendo reflejar todos mis trabajos y os deseo que los disfruteis tanto como yo he disfrutado al realizarlos.",
+        "what": "¿Qué saco de todo esto?",
+        "whatGet": "En realidad no saco nada, solo la satisfacción de hacer algo que me apasiona y el gusto de poder compartirlo con los fans de THE BEATLES como yo.",
+        "when": "¿Cuanto tiempo te ha llevado?",
+        "whenDo": "I've been developing this comic for years and I'm currently working on it and other projects related to THE BEATLES."
     }
 }

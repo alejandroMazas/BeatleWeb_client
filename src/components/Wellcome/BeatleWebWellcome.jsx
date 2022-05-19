@@ -1,18 +1,18 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import './BeatleWebWellcome.css'
+import { useTranslation } from 'react-i18next'
 
 const BeatleWebWellcome = () => {
+
+    const [t, i18n] = useTranslation('global')
+
     return (
         <>
             <section className="section1">
-                <h1 className="bienvenida">Bienvenido a BeatleWeb</h1>
+                <h1 className="bienvenida">{t('BeatleWebWellcome.wellcome')}</h1>
                 <article>
                     <p className="beatleWeb">
-                        Beatle Web esta dedicada a todo fan de THE BEATLES que tenga como hobby el dibujo
-                        ,la pintura, la escultura o cualquier otra modalidad de arte.
-                        En esta página encontraras mis trabajos relacionados con THE BEATLES y <strong>LA HISTORIA DE THE BEATLES EN COMICS </strong>
-                        un comic dividido en 8 capítulos realizados por mí en el que represento la historia del grupo desde sus inicios.
+                        {t('BeatleWebWellcome.beatleWeb')}
                     </p>
 
                     {/* <p>
@@ -31,16 +31,16 @@ const BeatleWebWellcome = () => {
             <section className="section2">
                 <div class="containerWellcome">
                     <div class="features">
-                        <h3>¿Por qué BeatleWeb?</h3>
-                        <p>Porque soy un apasionado de THE BEATLES y en esta web pretendo reflejar todos mis trabajos y os deseo que los disfruteis tanto como yo he disfrutado al realizarlos. </p>
+                        <h3>{t('BeatleWebWellcome.whyBeatleweb')}</h3>
+                        <p>{t('BeatleWebWellcome.why')}</p>
                     </div>
                     <div class="features">
-                        <h3>¿Que saco yo de todo esto?</h3>
-                        <p>En realidad no saco nada, solo la satisfacción de hacer algo que me apasiona y el gusto de poder compartirlo con los fans de THE BEATLES como yo.</p>
+                        <h3>{t('BeatleWebWellcome.what')}</h3>
+                        <p>{t('BeatleWebWellcome.whatGet')}</p>
                     </div>
                     <div class="features">
-                        <h3>¿Cuanto tiempo te ha llevado?</h3>
-                        <p>Este cómic llevo desarrollandolo durante años y actualmente sigo trabajando en él y en otros proyectos relacionados con THE BEATLES.</p>
+                        <h3>{t('BeatleWebWellcome.when')}</h3>
+                        <p>{t('BeatleWebWellcome.whenDo')}</p>
                     </div>
                 </div>
             </section>
