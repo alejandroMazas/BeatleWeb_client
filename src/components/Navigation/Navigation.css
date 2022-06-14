@@ -16,4 +16,9 @@ a:hover {
     margin-left: 10px;
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 768px) {
+    .navLink {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

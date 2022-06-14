@@ -23,7 +23,7 @@ const HomePage = () => {
                     </div>
                     :
                     <>
-                        <div className='background'></div>
+                        <div className='backgroundImg'></div>
                         <BeatleWebWellcome />
                     </>
             }

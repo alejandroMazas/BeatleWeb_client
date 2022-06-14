@@ -16,7 +16,6 @@
 
 .comment {
     margin-top: 20px;
-    width: 350px;
 }
 
 .commentBox {
@@ -54,5 +53,14 @@
     .views {
         margin-bottom: 0;
         padding-bottom: 10px;
+    }
+
+    .commentBox .container {
+        padding: 0;
+    }
+
+    .commentBox .row {
+        display: flex;
+        flex-direction: column;
     }
 }
