@@ -12,4 +12,8 @@ a:hover {
 .languageChange {
     background-color: rgb(65, 65, 62);
     color: white;
+    width: 50px;
+    margin-left: 10px;
 }
+
+@media (max-width: 1024px) {}

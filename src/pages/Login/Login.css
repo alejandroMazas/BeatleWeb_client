@@ -14,10 +14,16 @@
 }
 
 .formLoginBackground {
-    width: 50%;
+    width: 80%;
     max-width: 900px;
     background-color: rgb(255, 255, 255, 0.75);
     padding: 25px;
     border-radius: 10px;
     margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+    .formLoginBackground {
+        width: 50%
+    }
 }

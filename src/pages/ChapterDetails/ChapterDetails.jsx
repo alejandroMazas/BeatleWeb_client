@@ -83,9 +83,16 @@ const ChapterDetails = () => {
 
                     <Row>
 
-                        <Col md={{ span: 12 }} >
+                        <Col md={{ span: 12 }} className="mt-3" >
 
-                            <HTMLFlipBook width={648} height={920} className='flipbook'>
+                            <HTMLFlipBook width={648}
+                                height={920}
+                                size="stretch"
+                                minWidth={315}
+                                maxWidth={1000}
+                                minHeight={400}
+                                maxHeight={1533}
+                                className='flipbook'>
                                 {
                                     chapterDetails?.pages?.map(page => {
                                         return <img src={page} alt="" />

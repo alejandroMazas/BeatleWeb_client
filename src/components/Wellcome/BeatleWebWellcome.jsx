@@ -9,13 +9,14 @@ const BeatleWebWellcome = () => {
     return (
         <>
             <section className="section1">
-                <h1 className="bienvenida">{t('BeatleWebWellcome.wellcome')}</h1>
-                <article>
-                    <p className="beatleWeb">
-                        {t('BeatleWebWellcome.beatleWeb')}
-                    </p>
-
-                </article>
+                <div className="wellcomeBox">
+                    <h1 className="wellcome">{t('BeatleWebWellcome.wellcome')}</h1>
+                    <article>
+                        <p className="beatleWeb">
+                            {t('BeatleWebWellcome.beatleWeb')}
+                        </p>
+                    </article>
+                </div>
             </section>
 
             <section className="section2">

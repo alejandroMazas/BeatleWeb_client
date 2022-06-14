@@ -4,7 +4,12 @@
     background-color: rgb(37, 221, 187);
 }
 
-.bienvenida {
+.wellcomeBox {
+    width: 80%;
+    margin: auto;
+}
+
+.wellcome {
     font-size: 70px;
     margin-bottom: 30px;
     font-family: 'Permanent Marker';
@@ -28,14 +33,44 @@
 
 .containerWellcome {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .features {
-    width: 300px;
+    width: 100%;
     border: 1px solid white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 50px;
+    margin: 40px;
+}
+
+@media (max-width: 768px) {
+    .section2 {
+        padding: 0 30px;
+    }
+
+    .wellcome {
+        font-size: 2.5rem;
+    }
+
+    .section1 {
+        padding: 30px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .containerWellcome {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+
+    .features {
+        margin: 40px;
+    }
 }

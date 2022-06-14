@@ -7,9 +7,15 @@
 }
 
 .formSignupBackground {
-    width: 50%;
+    width: 80%;
     background-color: rgb(255, 255, 255, 0.75);
     padding: 25px;
     border-radius: 10px;
     margin: auto;
+}
+
+@media (min-width: 1024px) {
+    .formSignupBackground {
+        width: 50%
+    }
 }
