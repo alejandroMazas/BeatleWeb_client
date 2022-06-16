@@ -6,6 +6,14 @@
     height: 700px;
 }
 
+.backgroundImg {
+    background-image: url('../../../public/Imagenes/portada5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
 @media (max-width: 768px) {
     .backgroundImg {
         display: none;
