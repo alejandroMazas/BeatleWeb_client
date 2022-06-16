@@ -67,7 +67,8 @@ const ChapterList = ({ onClickImage }) => {
                         ?
                         chapters.map(chapter =>
 
-                            <Col md={{ span: 4 }} sm={{ span: 6 }} lg={{ span: 3 }} key={chapter._id}>
+
+                            < Col md={{ span: 4 }} sm={{ span: 6 }} lg={{ span: 3 }} key={chapter._id}>
                                 <ChapterCard {...chapter}
                                     onClickImage={onClickImage}
                                     deleteChapter={deleteChapter}

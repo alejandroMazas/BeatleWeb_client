@@ -11,7 +11,7 @@ import './ChapterDetails.css'
 
 const ChapterDetails = () => {
 
-    const { user, logOutUser, isLoggedIn } = useContext(AuthContext)
+    const { user, isLoggedIn } = useContext(AuthContext)
 
     const [showModal, setShowModal] = useState(false)
 
@@ -102,6 +102,8 @@ const ChapterDetails = () => {
 
                         </Col>
                     </Row >
+
+                    <h4 className='views'>{chapterDetails?.pages?.length} Páginas</h4>
 
                     <h3 className='views'>Visitas: {chapterDetails.viewers}</h3>
 
